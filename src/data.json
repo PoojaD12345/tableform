@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"ritu",
+        "age":24,
+        "address":"shahapur",
+        "depart":"operation",
+        "salary":50000,
+        "state":"unmarried"
+    },
+    {
+        "id":2,
+        "name":"ritu",
+        "age":24,
+        "address":"shahapur",
+        "depart":"operation",
+        "salary":50000,
+        "state":"unmarried"
+    }
+]
