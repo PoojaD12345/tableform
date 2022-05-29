@@ -36,6 +36,18 @@ const TableHead = () => {
         }
     }
     console.log(contacts)
+
+    const handOnDelete=async(id)=>{
+        setContacts(contacts.filter(contacts=>contacts.id!==id));
+
+        await fetch(`http://localhost:8080/form/${id}`,{
+            method:"DELETE",
+            headers:{
+                "Content-Type":"application/json"
+            }
+        })
+    }
+
   return (
       <>
       <Form getData={handData}/>
@@ -43,24 +55,34 @@ const TableHead = () => {
         <table>
           <thead>
           <tr>
+               <th>Emp Id</th>
                 <th>Name</th>
                 <th>Age</th>
                 <th>Address</th>
                 <th>Departement</th>
                 <th>Salary</th>
                 <th>Marital state</th>
-                <th>Profile</th>
-                <th>Remove</th>
             </tr>
           </thead>
           <tbody>
-              {contacts.map((contact)=>(
-               <Table contact={contact}/>
+              {contacts.map((contact,index)=>(
+               <Table 
+               key={contact.id}
+               contact={contact}
+               handOnDelete={handOnDelete}
+               isHiddwn={index%2===0}/>
               ))}
          
           </tbody>
         </table> 
-    </div>
+        
+      
+   </div>
+   {/* {contacts.map((e) => (
+           <Table key={e.id} {...e}
+           handOnDelete={handOnDelete}
+           />
+        ))} */}
       </>
     
   )

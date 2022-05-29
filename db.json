@@ -33,6 +33,34 @@
       "address": "H. 58 Majagaon, Belagavi, Karnataka, 590008",
       "salary": "5000",
       "state": true
+    },
+    {
+      "id": "Lx_pAcB",
+      "name": "Pooja",
+      "address": "H. 58 Majagaon, Belagavi, Karnataka, 590008",
+      "salary": "4500000"
+    },
+    {
+      "id": "viFQ8u4",
+      "name": "Pooja",
+      "age": "22",
+      "address": "H. 58 Majagaon, Belagavi, Karnataka, 590008",
+      "salary": "500000",
+      "state": true
+    },
+    {
+      "id": "3fIVTu0",
+      "name": "Pooja",
+      "age": "22",
+      "address": "50jkj",
+      "salary": "50000"
+    },
+    {
+      "id": "wifsuoE",
+      "name": "Pooja",
+      "age": "22",
+      "address": "50jkj",
+      "salary": "500000"
     }
   ]
 }
