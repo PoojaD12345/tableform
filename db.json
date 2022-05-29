@@ -1,0 +1,38 @@
+{
+  "form": [
+    {
+      "id": 1,
+      "name": "ritu",
+      "age": 24,
+      "address": "shahapur",
+      "depart": "operation",
+      "salary": 50000,
+      "state": "unmarried"
+    },
+    {
+      "id": 2,
+      "name": "ritu",
+      "age": 24,
+      "address": "shahapur",
+      "depart": "operation",
+      "salary": 50000,
+      "state": "unmarried"
+    },
+    {
+      "id": "9fATjtu",
+      "name": "Pooja",
+      "age": "22",
+      "address": "H. 58 Majagaon, Belagavi, Karnataka, 590008",
+      "salary": "5000",
+      "state": true
+    },
+    {
+      "id": "CJ73wUl",
+      "name": "Pooja",
+      "age": "22",
+      "address": "H. 58 Majagaon, Belagavi, Karnataka, 590008",
+      "salary": "5000",
+      "state": true
+    }
+  ]
+}
